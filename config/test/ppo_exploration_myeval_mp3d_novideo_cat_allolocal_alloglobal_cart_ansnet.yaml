@@ -1,0 +1,51 @@
+BASE_TASK_CONFIG_PATH: "configs/exploration/mp3d_evaluate_noisy.yaml"
+TRAINER_NAME: "occant_exp"
+ENV_NAME: "ExpRLEnv"
+SIMULATOR_GPU_ID: 0
+SIMULATOR_GPU_IDS: [0]
+TORCH_GPU_ID: 0
+VIDEO_OPTION: []
+TENSORBOARD_DIR: "tb/ansdepth_ansnetcheck/visualize/eval_mp3d/ans_depth_cat_allolocal_alloglobal_cart_ansnet"
+VIDEO_DIR: "videos/visualize/cat_allolocal_alloglobal_cart_ansnet"
+EVAL_CKPT_PATH_DIR: "data/checkpoints_set/ansdepth_ansnetcheck/ans_depth_cat_allolocal_alloglobal_cart_ansnet/ckpt.55.pth"
+NUM_PROCESSES: 1
+SENSORS: [RGB_SENSOR, DEPTH_SENSOR]
+CHECKPOINT_FOLDER: "data/checkpoints_set/ansdepth_ansnetcheck/ans_depth_cat_allolocal_alloglobal_cart_ansnet/ckpt.55.pth"
+NUM_EPISODES: 10000
+MYSEED: 625
+T_EXP: 1000
+EVAL:
+  USE_CKPT_CONFIG: False
+RL:
+  PPO:
+    # ppo params
+    ppo_epoch: 4
+    num_mini_batch: 4
+  ANS:
+    overall_map_size: 2001
+    image_scale_hw: [128, 128]
+    MAPPER:
+      map_size: 65
+      registration_type: "moving_average"
+      label_id: "ego_map_gt"
+      ignore_pose_estimator: False
+      map_batch_size: 1
+      use_data_parallel: True
+      replay_size: 1000
+      gpu_ids: [0]
+    OCCUPANCY_ANTICIPATOR:
+      type: "ans_depth"
+    GLOBAL_POLICY:
+      fbe: False
+      combine_fbe: False
+      deterministic: False
+      myego_localmap: False
+      myego_globalmap: False
+      myuse_localmap: True
+      myuse_globalmap: True
+      shareconv: True
+      interpolate: True
+      net_type: "ansnet"
+      visualize_feature: False
+    LOCAL_POLICY:
+      use_heuristic_policy: False
