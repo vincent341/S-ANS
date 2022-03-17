@@ -1,7 +1,10 @@
+<h1 align="center">
+Symmetry-aware Neural Architecture for Embodied Visual Exploration</h1>
+<h4 align="center">by Shuang Liu, Okatani Takayuki</h4>
 # Install
 In order to run the scripts, please follow the steps below;
-1. Please download and install the implementation of [ANS & Occupancy]({https://github.com/facebookresearch/OccupancyAnticipation]) as required.
-2. Replace `ans.py`, `policy.py` and `occant_exp_trainer.py` in `occant_baselines/rl` with `ans.py`, `policy.py` and `occant_exp_trainer.py` in `./SANS` of our directory.
+1. Please download and install the implementation of [Occupancy]({https://github.com/facebookresearch/OccupancyAnticipation]) as required.
+2. Replace `ans.py`, `policy.py` and `occant_exp_trainer.py` in `occant_baselines/rl` with `ans.py`, `policy.py` and `occant_exp_trainer.py` in our directory.
 3. Copy `./SANS/config/train/*yaml` and `./SANS/config/test/*yaml` to `configs/model_configs/ans_depth`.
 
 # Training
