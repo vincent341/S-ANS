@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Symmetry-Aware_Neural_Architecture_for_Embodied_Visual_Exploration_CVPR_2022_paper.pdf">Symmetry-aware Neural Architecture for Embodied Visual Exploration</a></h1>
+<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Symmetry-Aware_Neural_Architecture_for_Embodied_Visual_Exploration_CVPR_2022_paper.pdf">Symmetry-aware Neural Architecture for Embodied Visual Exploration [CVPR2022]</a></h1>
 <h4 align="center">by Shuang Liu, Okatani Takayuki</h4>
 
 # Install
