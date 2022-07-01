@@ -8,9 +8,13 @@
 ![traj1](assets/p4-path.png)
 ![traj2](assets/ans-path.png)
 ## Ablation study
-Gibson             |  Matterport3D
+<!-- Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
-![ablation1](assets/overall_ansexactp4_paper_gibson.png) |  ![ablation2](assets/overall_ansexactp4_paper_mp3d.png)
+![ablation1](assets/overall_ansexactp4_paper_gibson.png) |  ![ablation2](assets/overall_ansexactp4_paper_mp3d.png) -->
+<p float="left">
+  <img src="/assets/overall_ansexactp4_paper_gibson.png" width="200" />
+  <img src="/assets/overall_ansexactp4_paper_mp3d.png" width="200" /> 
+</p>
 # Abstract
 Visual exploration is a task that seeks to visit all the navigable areas of an environment as quickly as possible. The existing methods employ deep reinforcement learning (RL) as the standard tool for the task. However, they tend to be vulnerable to statistical shifts between the training and test
 data, resulting in poor generalization over novel environments that are out-of-distribution (OOD) from the training data. In this paper, we attempt to improve the generalization ability by utilizing the inductive biases available for the task. Employing the active neural SLAM (ANS) that learns exploration policies with the advantage actor-critic (A2C) method as the base framework, we first point out that the mappings represented by the actor and the critic should satisfy specific symmetries. We then propose a network design for the actor and the critic to inherently attain these symmetries. Specifically, we use G-convolution instead of the standard convolution and insert the semi-global polar pooling (SGPP) layer, which we newly design in this study, in the last section of the critic network. Experimental results show that our method increases area coverage by $8.1m^2$ when trained on the Gibson dataset and tested on the MP3D
