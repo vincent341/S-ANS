@@ -5,8 +5,12 @@
 ![demo](assets/mosquito.gif) 
 # Results
 ## Exploration trajectory and coverage: our method v.s. the baseline method
-![traj1](assets/p4-path.png)
-![traj2](assets/ans-path.png)
+<!-- ![traj1](assets/p4-path.png)
+![traj2](assets/ans-path.png) -->
+<p align="middle">
+  <img src="assets/p4-path.png" width="200" />
+  <img src="assets/ans-path" width="200" /> 
+</p>
 ## Ablation study
 <!-- Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
