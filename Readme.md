@@ -9,6 +9,8 @@
 ![traj2](assets/ans-path.png) -->
 <p align="middle">
   <img src="assets/p4-path.png" width="200" />
+</p>
+<p align="middle">
   <img src="assets/ans-path" width="200" /> 
 </p>
 ## Ablation study
