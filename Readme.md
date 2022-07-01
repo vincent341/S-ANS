@@ -9,6 +9,7 @@
 <img src="assets/p4-path.png" width="1200" height="280">
 <img src="assets/ans-path.png" width="1200" height="280">
 ## Ablation study
+
 <!-- Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
 ![ablation1](assets/overall_ansexactp4_paper_gibson.png) |  ![ablation2](assets/overall_ansexactp4_paper_mp3d.png) -->
