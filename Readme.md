@@ -14,10 +14,9 @@
 :-------------------------:|:-------------------------:
 ![ablation1](assets/overall_ansexactp4_paper_gibson.png) |  ![ablation2](assets/overall_ansexactp4_paper_mp3d.png) -->
 
-<center> Gibson             |  Matterport3D
+Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
 <img src="assets/overall_ansexactp4_paper_gibson.png" width="360" height="360"> | <img src="assets/overall_ansexactp4_paper_mp3d.png" width="360" height="360">
-  </center>
 <!-- <p align="middle">
   <img src="/assets/overall_ansexactp4_paper_gibson.png" width="350" />
   <img src="/assets/overall_ansexactp4_paper_mp3d.png" width="350" /> 
