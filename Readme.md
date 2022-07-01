@@ -6,8 +6,8 @@
 # Results
 ## Exploration trajectory and coverage: our method v.s. the baseline method
 
-![test image size]<img src="assets/p4-path.png" width="1200" height="280">
-![test image size]<img src="assets/ans-path.png" width="1200" height="280">
+<img src="assets/p4-path.png" width="1200" height="280">
+<img src="assets/ans-path.png" width="1200" height="280">
 ## Ablation study
 <!-- Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
