@@ -6,15 +6,16 @@
 # Results
 ## Exploration trajectory and coverage: our method v.s. the baseline method
 
-<img src="assets/p4-path.png" width="1200" height="280">
-<img src="assets/ans-path.png" width="1200" height="280">
+!<img src="assets/p4-path.png" width="1200" height="280">
+!<img src="assets/ans-path.png" width="1200" height="280">
 ## Ablation study
 <!-- Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
 ![ablation1](assets/overall_ansexactp4_paper_gibson.png) |  ![ablation2](assets/overall_ansexactp4_paper_mp3d.png) -->
+
 Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
-<img src="assets/overall_ansexactp4_paper_gibson.png" width="360" height="360"> | <img src="assets/overall_ansexactp4_paper_mp3d.png" width="360" height="360">
+!<img src="assets/overall_ansexactp4_paper_gibson.png" width="360" height="360"> | !<img src="assets/overall_ansexactp4_paper_mp3d.png" width="360" height="360">
 <!-- <p align="middle">
   <img src="/assets/overall_ansexactp4_paper_gibson.png" width="350" />
   <img src="/assets/overall_ansexactp4_paper_mp3d.png" width="350" /> 
