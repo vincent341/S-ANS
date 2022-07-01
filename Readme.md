@@ -11,9 +11,11 @@
 <!-- Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
 ![ablation1](assets/overall_ansexactp4_paper_gibson.png) |  ![ablation2](assets/overall_ansexactp4_paper_mp3d.png) -->
-<p float="left">
-  <img src="/assets/overall_ansexactp4_paper_gibson.png" width="200" />
-  <img src="/assets/overall_ansexactp4_paper_mp3d.png" width="200" /> 
+Gibson             |  Matterport3D
+:-------------------------:|:-------------------------:
+<p align="middle">
+  <img src="/assets/overall_ansexactp4_paper_gibson.png" width="500" />
+  <img src="/assets/overall_ansexactp4_paper_mp3d.png" width="500" /> 
 </p>
 # Abstract
 Visual exploration is a task that seeks to visit all the navigable areas of an environment as quickly as possible. The existing methods employ deep reinforcement learning (RL) as the standard tool for the task. However, they tend to be vulnerable to statistical shifts between the training and test
