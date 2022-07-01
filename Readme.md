@@ -2,6 +2,7 @@
 <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Symmetry-Aware_Neural_Architecture_for_Embodied_Visual_Exploration_CVPR_2022_paper.pdf">Symmetry-aware Neural Architecture for Embodied Visual Exploration</a> [CVPR2022] </h1>
 <h4 align="center">by Shuang Liu, Okatani Takayuki</h4>
 
+![demo](assets/mosquito.gif) 
 # Install
 In order to run the scripts, please follow the steps below;
 1. Please download and install the implementation of [Occupancy](https://github.com/facebookresearch/OccupancyAnticipation) as required.
