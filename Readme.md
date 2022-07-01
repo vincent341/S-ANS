@@ -4,8 +4,9 @@
 
 ![demo](assets/mosquito.gif) 
 # Results
-## Exploration trajectory and coverage: our method v.s. the baseline method
-
+## Exploration trajectory and coverage
+Our method             |  Baseline method
+:-------------------------:|:-------------------------:
 <img src="assets/p4-path.png" width="1200" height="280">
 <img src="assets/ans-path.png" width="1200" height="280">
 
