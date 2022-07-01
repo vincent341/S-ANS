@@ -16,7 +16,9 @@
 
 Gibson             |  Matterport3D
 :-------------------------:|:-------------------------:
+<p align="center">
 <img src="assets/overall_ansexactp4_paper_gibson.png" width="360" height="360"> | <img src="assets/overall_ansexactp4_paper_mp3d.png" width="360" height="360">
+</p>
 <!-- <p align="middle">
   <img src="/assets/overall_ansexactp4_paper_gibson.png" width="350" />
   <img src="/assets/overall_ansexactp4_paper_mp3d.png" width="350" /> 
