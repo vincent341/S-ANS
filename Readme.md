@@ -3,6 +3,7 @@
 <h4 align="center">by Shuang Liu, Okatani Takayuki</h4>
 
 ![demo](assets/mosquito.gif) 
+![demo](assets/scioto.gif)
 # Results
 ## Exploration trajectory and coverage
 Our method             |  Baseline method
