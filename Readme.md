@@ -46,6 +46,7 @@ python run.py --exp-config configs/model_configs/ans_depth/ppo_exploration_cat_a
 ```
 python run.py --exp-config configs/model_configs/ans_depth/ppo_exploration_allolocal_alloglobal_cart_ansnetexact_shareconv_rllocal__actorBP_criticBPGPP.yaml --run-type train
 ```
+3. The trained model can be downloaded via [link](https://drive.google.com/file/d/187dwTIaoMtzuU2JMInoCUAATD4EGlocJ/view?usp=sharing).
 # Testing
 1. To evaluate ANS on Gibson, please run
 ```
